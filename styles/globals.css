@@ -115,16 +115,6 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-[v0-badge],
-img[alt="v0"],
-[class*="v0"],
-[src*="v0.dev"],
-div[data-v0],
-#v0-badge {
-  display: none !important;
-}
-
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
