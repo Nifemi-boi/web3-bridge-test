@@ -61,7 +61,7 @@ export function CategoryManager({ categories, onAddCategory, onDeleteCategory }:
             <label className="block text-sm font-medium mb-2">Name *</label>
             <input
               type="text"
-              placeholder="e.g., Shopping"
+              placeholder="e.g., Shopping, Grocery items"
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full px-3 py-2 border border-border rounded-lg bg-input text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
